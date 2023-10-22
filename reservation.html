@@ -3,36 +3,46 @@
 <head>
 <title> Ameer Restaurant</title>
 <link href="stylesheets/mystyle.css" rel="stylesheet" />
-
-	<style>
-		body {
-			color: black;
-			background-color: aqua;
-		
-		}
-	ul.navul li {
-			list-style: none;
-			display: inline;
-		}
-		
-		.sp {
-			font-family: monospace;
-			color: brown;
-			
-		}
-		#ty {
-			font-family:monospace;
-			color: blue;
-		}
-		.hs {
-			
-			text-transform: uppercase;
-		}
-	</style>
+<style>
+	.reservation-input {
+	  display: block;
+	  margin-bottom: 10px;
+	  padding: 5px;
+	  width: 200px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  font-size: 14px;
+	}
+	
+	input[type="submit"] {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 10px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  font-size: 16px;
+	}
+  </style>
+  
+  <form>
+	<label for="name">Name:</label>
+	<input type="text" class="reservation-input" name="name" required>
+	
+	<label for="email">Email:</label>
+	<input type="email" class="reservation-input" name="email" required>
+	
+	<label for="date">Date:</label>
+	<input type="date" class="reservation-input" name="date" required>
+	
+	<label for="time">Time:</label>
+	<input type="time" class="reservation-input" name="time" required>
+	
+	<input type="submit" value="Make Reservation">
+  </form>
 </head>
 <body>
   <header>
-   
  <h1>Ameer Restaurant</h1> <img src="images/restaurant%20logo.png" alt="Restaurant Logo">
   </header>
 	
@@ -47,24 +57,10 @@
 		  
 	
 	</nav>
-<h1
-  
   <section>
-    <h2 class="hs" style="color: brown">Welcome to Ameer Restaurant!</h2>
-    <p>At Food Restaurant, we pride ourselves on serving delicious and mouthwatering dishes that will satisfy your cravings. Our menu features a variety of options, from appetizers to desserts, all made with fresh and high-quality ingredients.</p>
-    
-    <h3 class="sp hs" id="fr">Our Specialties</h3>
-    <ul>
-      <li>Signature Burger</li>
-      <li>Seafood Pasta</li>
-      <li>Grilled Steak</li>
-      <li>Vegetarian Delight</li>
-    </ul>
-    
-    <h3 id="ty"> Visit Us Today </h3> 
-	<img src="images/re.jpg.jpeg" alt="resturant">
-	 <img src="images/res.jpg.jpeg" alt="resturant">
-    <p>Whether you're looking for a cozy dinner for two or a group celebration, Food Restaurant is the perfect place to indulge in delectable food and create lasting memories. Visit us today and experience the true taste of culinary excellence!</p>
+ 
+	
+   </div>
   </section>
 	<footer>
 	&copy;<a href="#"> Ameer Restaiurent. contact information. privacy policy. hours of operation. </a>
