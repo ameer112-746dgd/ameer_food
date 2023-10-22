@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Ameer Restaurant</title>
+<link href="stylesheets/mystyle.css" rel="stylesheet" />
+<style>
+	 #tx, select {
+    width: 100%;
+	margin: 8px 0;
+	padding: 12px 20px;
+	background-color: rgb(196, 196, 212);
+    font-size: large;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius:  4px;
+	box-sizing: border-box;
+
+	
+}
+#btn{
+	width: 100%;
+	margin: 0 auto;
+	padding: 12px 20px;
+	background-color: rgb(196, 196, 212);
+	font-size: large;
+	text-align: center;
+	cursor: pointer;	
+}
+#btn:hover {
+	background-color: bisque;
+}
+ #frdiv {
+	border-radius: 5px;
+background-color: azure;
+padding: 20px; 
+
+ }
+</style>
+
+</head>
+<body>
+  <header>
+ <h1>Ameer Restaurant</h1> <img src="images/restaurant%20logo.png" alt="Restaurant Logo">
+  </header>
+	
+<nav>
+	
+	 <ul class="navul">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Reservations</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+		  
+	
+	</nav>
+  <section>
+   <div id="frdiv">
+	<form>
+		<label for="name"> Name: </label>
+		<input type="text" id="tx" placeholder="Fullname" name="name" />
+		<label for="mail">Email</label>
+		<input type="email" placeholder="email address" id="tx" name="mail" />
+		<label for="country">Country</label>
+		<select name="country">
+			<option>Select Country</option>
+			<option> Nigeria </option>
+			<option> Ghana </option>
+			<option>UK</option>
+			<option> Australia </option>
+		</select>
+		<label for="com"> Comment </label>
+		<textarea placeholder="Your comment" id="tx" name="com"></textarea>
+		<input type="button" value="Submit" id="btn" />
+	</form>
+   </div>
+  </section>
+	<footer>
+	&copy;<a href="#"> Ameer Restaiurent. contact information. privacy policy. hours of operation. </a>
+	</footer>
+</body>
+</html>
