@@ -45,13 +45,25 @@
       line-height: 1.5;
     }
     footer {
-      background-color: #5595d5;
-      padding: 10px;
-      text-align: center;
-      margin-top: 10px;
+     margin-right: 20px;
+     font-display: swap;
+     font-size: 20px;
+     text-align:center;
+     display: block;
+     margin-top: 150px;
     }
     .ay{
         margin-top: 50px;
+    }
+    .row{
+      padding-top: 20px;
+    }
+    .icon {
+        width: 20px;
+      height: 20px;
+    }
+    .txt{
+      text-align: center;
     }
   </style>
 </head>
@@ -87,8 +99,41 @@
 <div class="carousel-item">
 	<img src="images/amee3.jpg" class="d-block w-100" alt="African dinning" >
 </div>
-  <footer>
-    <p>&copy; 2023 Ameer Restaurant. All rights reserved.</p>
+  
+
+ <footer class=" sake text-light bg-danger">
+	<div class="row">
+<div class="col">
+
+	<nav>
+		<ul class="nav justify-content-center flex-column">
+			<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+			<li class="nav-item"><a href="about us.html" class="nav-link">About Us</a></li>
+			<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+			<li class="nav-item"><a href="reservation.html" class="nav-link">reservation</a></li>
+		</ul>
+	</nav> 
+</div>
+
+<div class="col">
+    <h4>Address</h4>
+	<span>Address: 419,Main Street, Anytown, USA</span><br>
+	<img class="icon" src="images/icon4.png" alt="facebook Icon">
+	<span>phone number:+243 (555) 123-4567</span>
+</div>
+
+<div class="col">
+
+	<h4>Social Media Contact</h4>
+	<img class="icon" src="images/icon1.png" alt="facebook Icon">
+	<span>Facebook</span>
+	<img class="icon" src="images/icon2.png" alt="Twitter Icon">
+	<span>Twitter</span>
+	<img class="icon" src="images/icon3.jpeg" alt="Instagram Icon">
+	<span>Instagram</span>
+</div>
+	</div>
+   <p class="text-center">&copy; 2023 Ameer Restaurant. All rights reserved.</p>
   </footer>
 </body>
 </html>
